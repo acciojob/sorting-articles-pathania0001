@@ -22,7 +22,7 @@ let bands = ['The Plot in You', 'The Devil Wears Prada', 'Pierce the Veil', 'Nor
 		return compA.localeCompare(compB);
 		
 })
-let ul = document.getElementById("band");
+let ul = document.getElementById("bands");
 bands.forEach((item)=>{
    let li = document.createElement("li");
 	li.textContent = item;
